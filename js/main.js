@@ -5,5 +5,7 @@ var nameUpperCased = dinosaur.toUpperCase();
 console.log(nameUpperCased);
 
 var changeNameOfDinosaur = text.replace('Velociraptor', 'Triceratops');
-var partOfSentence = changeNameOfDinosaur.slice (changeNameOfDinosaur.length/2);
-console.log(partOfSentence);
+var halfText = changeNameOfDinosaur.length / 2;
+var textSlice = changeNameOfDinosaur.slice(0,halfText);
+
+console.log(textSlice);
